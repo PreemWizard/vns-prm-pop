@@ -69,9 +69,16 @@ or
 ### Visualization
 
 Visualization script **show_solution.py** in visualization folder can be used to show the last solution recorded in result log **sources/results/results.log**.
-To be able to run the script, following dependencies have to be installed first (for the Ubuntu 18.04 LTS):
+To be able to run the script, following dependencies have to be installed first (for the Ubuntu 24.04 LTS):
 
 ```bash
+cd vns-prm-pop/
+python3 -m venv venv
+source venv/bin/activate
+
+cd vns-prm-pop/visualization/
+pip install -r requirements.txt
+
 sudo apt-get install python3-numpy python3-matplotlib python3-scipy python3-shapely python3-descartes python3-pip
 pip3 install git+git://github.com/AndrewWalker/pydubins.git
 pip3 install pywavefront pycollada
