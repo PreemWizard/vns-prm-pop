@@ -19,7 +19,7 @@ sudo apt-get install make ccache build-essential pkg-config liblog4cxx-dev libca
 
 To clone the repository run
 ```bash 
-git clone --recursive https://github.com/ctu-mrs/vns-prm-pop.git
+git clone --recursive https://github.com/ctu-mrs/vns-prm-pop.git](https://github.com/PreemWizard/vns-prm-pop.git
 ```
 and compile supporting libraries by running
 ```bash 
