@@ -225,15 +225,15 @@ bool parseArgs(int argc, char *argv[]) {
 			logger = getLogger(LOGGER_NAME);
 
 			std::cout << "created" << std::endl;
-			log4cxx::LayoutPtr console_layout = new log4cxx::PatternLayout("%5p %d (%F:%L) - %m%n");
+			log4cxx::LayoutPtr console_layout(new log4cxx::PatternLayout("%5p %d (%F:%L) - %m%n"));
 
 			std::cout << "console_layout created" << std::endl;
-			log4cxx::AppenderPtr console_appender = new log4cxx::ConsoleAppender(console_layout);
+			log4cxx::AppenderPtr console_appender(new log4cxx::ConsoleAppender(console_layout));
 			std::cout << "console_appender created" << std::endl;
 
-			log4cxx::LayoutPtr file_layout = new log4cxx::PatternLayout("%5p %d (%F:%L) - %m%n");
+			log4cxx::LayoutPtr file_layout(new log4cxx::PatternLayout("%5p %d (%F:%L) - %m%n"));
 			std::cout << "file_layout created" << std::endl;
-			log4cxx::AppenderPtr file_appedner = new log4cxx::FileAppender(file_layout, "output.log");
+			log4cxx::AppenderPtr file_appedner(new log4cxx::FileAppender(file_layout, "output.log"));
 			std::cout << "file_appedner created" << std::endl;
 
 			//log4cxx::LevelPtr level = new log4cxx::Level();

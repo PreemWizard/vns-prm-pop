@@ -1,0 +1,25 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/vinicius/autobotz26_ws/install/scara_controller/lib/python3.12/site-packages",
+        "/home/vinicius/install/my_robot_controller/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/trainee_2026",
+        "/home/vinicius/ros2_jazzy_ws/install/trainee_2026/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/scara_manipulador",
+        "/home/vinicius/ros2_jazzy_ws/install/scara_manipulador/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/my_robot_controller",
+        "/home/vinicius/ros2_jazzy_ws/install/my_robot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vinicius/autobotz26_ws/install/scara_controller/lib/python3.12/site-packages",
+        "/home/vinicius/install/my_robot_controller/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/trainee_2026",
+        "/home/vinicius/ros2_jazzy_ws/install/trainee_2026/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/scara_manipulador",
+        "/home/vinicius/ros2_jazzy_ws/install/scara_manipulador/lib/python3.12/site-packages",
+        "/home/vinicius/ros2_jazzy_ws/build/my_robot_controller",
+        "/home/vinicius/ros2_jazzy_ws/install/my_robot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

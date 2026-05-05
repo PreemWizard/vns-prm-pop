@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import shapely.geometry as geometry
-from shapely.ops import cascaded_union, polygonize
+from shapely.ops import unary_union, polygonize
 import math
 from matplotlib.pyplot import arrow
-import dubins
+from utils import dubins_math as dubins
 this_script_path = os.path.dirname(__file__)   
 path_to_utils = os.path.join(this_script_path, "utils")  
 sys.path.append(path_to_utils)
@@ -117,7 +117,7 @@ print("calc_reward", calc_reward)
 
 
 
-mycmap = plt.cm.get_cmap('RdYlBu_r')
+mycmap = mpl.colormaps['RdYlBu_r']
 
 maxx, maxy = -sys.float_info.max,-sys.float_info.max
 minx, miny = sys.float_info.max,sys.float_info.max
