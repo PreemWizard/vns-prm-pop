@@ -11,6 +11,9 @@ sources/lib/rapid-2.01/libRAPID.a
 sources/lib/rapid-2.01/sample_client
 venv/
 .vscode/
+/bin
+*.db
+results/*.log
 
 
 .cproject
