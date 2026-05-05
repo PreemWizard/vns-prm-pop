@@ -10,6 +10,7 @@ visualization/utils/__pycache__
 sources/lib/rapid-2.01/libRAPID.a
 sources/lib/rapid-2.01/sample_client
 venv/
+.vscode/
 
 
 .cproject
